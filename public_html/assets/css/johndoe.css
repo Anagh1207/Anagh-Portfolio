@@ -11689,3 +11689,11 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .header-title {
+      display: inline-block; /* Ensures it behaves like a normal text element */
+      font-size: 2rem; /* Keep size optimal */
+      word-spacing: -8px; /* Reduce space between words */
+      letter-spacing: -1px; /* Reduce letter spacing if needed */
+  }
+}
